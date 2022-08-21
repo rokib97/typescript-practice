@@ -112,3 +112,17 @@ firstObject = {
   name: "Rakib",
   age: 22,
 };
+
+// function type
+let myfun: Function;
+myfun = () => {
+  //   console.log("Hello");
+};
+
+const myFun = (a: string, b: string, c: number): string => {
+  //   console.log(`Hello ${a} ${b} and ${c} ${d}`);
+  return a + b + c;
+};
+
+const result = myFun("Hello", "Bangladesh", 20);
+console.log(result);
